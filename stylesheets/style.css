@@ -81,7 +81,7 @@ html::-webkit-scrollbar {
 /* Options */
 
 .options {
-  width: 175px;
+  width: 100px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -93,7 +93,7 @@ html::-webkit-scrollbar {
   font-size: 20px;
 }
 
-.options i:nth-child(4) {
+.options i:nth-child(2) {
   font-size: 31px;
 }
 
@@ -120,7 +120,6 @@ html::-webkit-scrollbar {
   justify-content: space-evenly;
   align-items: center;
 }
-
 
 .sidebar hr {
   margin: 10px 0px;

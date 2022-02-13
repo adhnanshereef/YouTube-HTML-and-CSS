@@ -29,5 +29,103 @@
       content="YouTube is an American online video sharing and social media platform owned by Google. It was launched on February 14, 2005, by Steve Chen, Chad Hurley, and Jawed Karim. It is the second most visited website, right after Google itself."
     />
   </head>
-  <body></body>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div></div>
+      <!-- Search -->
+      <div class="search">
+        <div class="search-bar">
+          <div style="padding-right: 10px"></div>
+          <input type="text" placeholder="Search" />
+          <div class="search-button">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+        <div class="voice-search"><i class="fa-solid fa-microphone"></i></div>
+      </div>
+      <!-- Options -->
+      <div class="options">
+        <i class="fa-solid fa-bell"></i><i class="fa-solid fa-circle-user"></i>
+      </div>
+    </nav>
+
+    <!-- Sidebar -->
+    <section class="sidebar">
+      <div class="menu-logo">
+        <i class="fa-solid fa-bars" style="font-size: 23.5px"></i>
+        <div class="logo" style="width: 120px">
+          <img
+            width="40px"
+            src="https://www.round2corp.com/wp-content/uploads/2020/10/Youtube-Logo.png"
+            alt=""
+          />
+          <h3 style="float: right; margin-top: 6px">YouTube</h3>
+        </div>
+      </div>
+      <!-- Actions -->
+      <div class="actions">
+        <div class="action" id="selected-menu">
+          <div class="icon"><i class="fa-solid fa-house"></i></div>
+          <div class="title">Home</div>
+        </div>
+        <div class="action">
+          <div class="icon"><i class="fa-solid fa-compass"></i></div>
+          <div class="title">Explore</div>
+        </div>
+        <div class="action">
+          <div class="icon"><i class="fa-brands fa-youtube"></i></div>
+          <div class="title">Subscriptions</div>
+        </div>
+
+        <hr />
+
+        <div class="action">
+          <div class="icon"><i class="fa-solid fa-photo-film"></i></div>
+          <div class="title">Librery</div>
+        </div>
+        <div class="action">
+          <div class="icon"><i class="fa-solid fa-play"></i></div>
+          <div class="title">History</div>
+        </div>
+        <div class="action">
+          <div class="icon"><i class="fa-solid fa-clock"></i></div>
+          <div class="title">Watch Later</div>
+        </div>
+        <div class="action">
+          <div class="icon"><i class="fa-solid fa-thumbs-up"></i></div>
+          <div class="title">Liked Videos</div>
+        </div>
+      </div>
+      <hr />
+      <!-- Subscriptions -->
+      <div class="subscriptions">
+          <h5>Subscriptions</h5>
+          <div class="actions">
+            <div class="action">
+                <div class="icon"><i class="fa-solid fa-music"></i></div>
+                <div class="title">Music</div>
+              </div>
+            <div class="action">
+                <div class="icon"><i class="fa-solid fa-trophy"></i></div>
+                <div class="title">Sports</div>
+              </div>
+            <div class="action">
+                <div class="icon"><i class="fa-solid fa-gamepad"></i></div>
+                <div class="title">Gaming</div>
+              </div>
+            <div class="action">
+                <div class="icon"><i class="fa-solid fa-newspaper"></i></div>
+                <div class="title">News</div>
+              </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- Search Suggestions -->
+    <section class="search-suggestions">
+        <div class="suggestion" id="selected-suggestions"><p>All</p></div>
+        <div class="suggestion""><p>Tutorials</p></div>
+    </section>
+  </body>
 </html>
